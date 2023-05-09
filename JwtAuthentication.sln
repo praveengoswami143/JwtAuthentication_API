@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JwtAuthentication", "JwtAuthentication\JwtAuthentication.csproj", "{7D5D5056-E576-4465-A9F3-8FFAA8CC4F49}"
+	ProjectSection(ProjectDependencies) = postProject
+		{56F2C59E-1C0F-4817-B4B2-DF5268860005} = {56F2C59E-1C0F-4817-B4B2-DF5268860005}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JwtAuthentication.Utility", "JwtAuthentication.Utility\JwtAuthentication.Utility.csproj", "{06DE589D-8AC1-403E-80DA-68623D7A496D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtAuthentication.BAL", "JwtAuthentication.BAL\JwtAuthentication.BAL.csproj", "{56F2C59E-1C0F-4817-B4B2-DF5268860005}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtAuthentication.DAL", "JwtAuthentication.DAL\JwtAuthentication.DAL.csproj", "{AC7F67F4-F507-400D-ADA0-1055D1C971FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtAuthentication.Model", "JwtAuthentication.Model\JwtAuthentication.Model.csproj", "{0F561665-0325-44ED-9030-E67AC6B6DAF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D5D5056-E576-4465-A9F3-8FFAA8CC4F49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D5D5056-E576-4465-A9F3-8FFAA8CC4F49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D5D5056-E576-4465-A9F3-8FFAA8CC4F49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D5D5056-E576-4465-A9F3-8FFAA8CC4F49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06DE589D-8AC1-403E-80DA-68623D7A496D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06DE589D-8AC1-403E-80DA-68623D7A496D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06DE589D-8AC1-403E-80DA-68623D7A496D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06DE589D-8AC1-403E-80DA-68623D7A496D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56F2C59E-1C0F-4817-B4B2-DF5268860005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56F2C59E-1C0F-4817-B4B2-DF5268860005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56F2C59E-1C0F-4817-B4B2-DF5268860005}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56F2C59E-1C0F-4817-B4B2-DF5268860005}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC7F67F4-F507-400D-ADA0-1055D1C971FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC7F67F4-F507-400D-ADA0-1055D1C971FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC7F67F4-F507-400D-ADA0-1055D1C971FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC7F67F4-F507-400D-ADA0-1055D1C971FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F561665-0325-44ED-9030-E67AC6B6DAF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F561665-0325-44ED-9030-E67AC6B6DAF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F561665-0325-44ED-9030-E67AC6B6DAF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F561665-0325-44ED-9030-E67AC6B6DAF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6562D3E3-9A81-4FF9-A0C7-F57E9EE58153}
+	EndGlobalSection
+EndGlobal
